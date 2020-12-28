@@ -154,9 +154,9 @@ const Balances: React.FC = () => {
 	    <StyledGroovernaceInfo>
 			<StyledHeaderInfo>
 			    <HeaderFont>Token</HeaderFont>
-				<HeaderLabel>Stake your ChocolateLP tokens to earn KtKt</HeaderLabel>
+				<HeaderLabel>Stake your ChocolateLP tokens to earn KitKat</HeaderLabel>
 				<PriceBox>
-					<HeaderPrice>KtKt Price: {KtKtPrice ? `$${currencyFormat(KtKtPrice, 3)}` : 'Loading'}</HeaderPrice>
+					<HeaderPrice>KitKat Price: {KtKtPrice ? `$${currencyFormat(KtKtPrice, 3)}` : 'Loading'}</HeaderPrice>
 					{MMSOpen ? <HeaderPrice>MMS Price: {MMSPrice ? `$${currencyFormat(MMSPrice, 3)}` : 'Loading'}</HeaderPrice>: ''}
 				</PriceBox>
 			</StyledHeaderInfo>
@@ -167,7 +167,7 @@ const Balances: React.FC = () => {
 			<StyledCardContent>
 			  <StyledColumn>
 			    <StyledHeader>
-				  Your KtKt Balance
+				  Your KitKat Balance
 				</StyledHeader>
 				<StyledInsideCard>
 				  <img src={logo} alt="KtKt" />
@@ -179,7 +179,7 @@ const Balances: React.FC = () => {
 			  </StyledColumn>
 			</StyledCardContent>
 			<Footnote>
-			  Unclaimed KtKt
+			  Unclaimed KitKat
 			  <FootnoteValue>
 				<PendingRewards />
 			  </FootnoteValue>
@@ -189,7 +189,7 @@ const Balances: React.FC = () => {
 		  <StyledCard>
 			<StyledCardContent>
 			   <StyledHeader>
-			     Total KtKt Supply
+			     Total KitKat Supply
 			   </StyledHeader>
 			   <StyledInsideCard>
 			     <StyledTotals>	
